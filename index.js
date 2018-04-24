@@ -38,7 +38,8 @@ shake.startWatch(onShake, 40 /*, onError */);
 }
  
 var onShake = function () {
-  rollDice;
+    alert("shake");
+  rollDice();
 };
  
 
