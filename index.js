@@ -29,6 +29,8 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
     
+    alert("deviceready");
+    
     // Now safe to use device APIs
     
     
