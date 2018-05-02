@@ -29,7 +29,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
     
-    alert("deviceready");
+    
     
     // Now safe to use device APIs
     
@@ -40,7 +40,6 @@ shake.startWatch(onShake, 40 /*, onError */);
 }
  
 var onShake = function () {
-    alert("shake");
   rollDice();
 };
  
