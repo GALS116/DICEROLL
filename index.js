@@ -42,6 +42,19 @@ shake.startWatch(onShake, 40 /*, onError */);
 var onShake = function () {
   rollDice();
 };
+
+<style>
+div.dice{
+	float:left;
+	width:32px;
+	background:#F5F5F5;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+</style>
  
 
 
