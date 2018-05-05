@@ -43,7 +43,7 @@ var onShake = function () {
   rollDice();
 };
 
-<style>
+
 div.dice{
 	float:left;
 	width:32px;
@@ -54,7 +54,7 @@ div.dice{
 	text-align:center;
 	margin:5px;
 }
-</style>
+
  
 
 
