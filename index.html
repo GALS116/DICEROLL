@@ -21,18 +21,19 @@ div.dice{ <!––The div tag defines a section in the html document. Here I am 
         <script src="jquery.mobile-1.4.5/jquery-1.12.4.min.js"></script>
         <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script> <!--Here I am adding an jQuery frame work to
                                                                                 make my app more mobile friendly and better looking-->
-     <script src="cordova.js"></script>                                          
+     <script src="cordova.js"></script> <!--Here I add the cordova plugin to make my app mobile compatable-->                                        
      
-        <script src="index.js"></script> 
+        <script src="index.js"></script> <!--Here I refrence the JavaScript file so the html can use it-->
     </head>
     
 <body style="background-color:darkgreen;">
    <div id="dice1" class="dice">1</div>
-   <div id="dice2" class="dice">1</div>
+   <div id="dice2" class="dice">1</div> <!--Here I add the two dice to the phone screen, using the div I made earlier, with the
+                                         dice staring on one-->
    
    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-   <button onclick="coinToss()">Flip a coin</button>
-   <img name="coin" src="Tails.png">
+   <button onclick="coinToss()">Flip a coin</button> <!--Here I am placing the button to flip the coin--> 
+   <img name="coin" src="Tails.png"> <!--And here I place the coin, starting on heads-->
    
    </body>
     
