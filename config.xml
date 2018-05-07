@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="cordova-plugin-shake" source='npm'/>
+    <plugin name="cordova-plugin-shake" source='npm'/> <!--Here I define the shake plugin, so it can be used in the app-->
     
 </widget>
     
